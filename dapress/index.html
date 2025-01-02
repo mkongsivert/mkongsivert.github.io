@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Denver Avenue Press</title>
+        <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+        <style>
+            html {
+                background-color: cornsilk;
+            }
+
+            header {
+                padding: 20px;
+                text-align: center;
+                font-size: 25px;
+                color: darkgreen;
+                }
+
+            nav {
+                float: center;
+                font-size: 24px;
+                width: 100%;
+                color: darkslategrey;
+                padding: 15px;
+            }
+
+            nav td {
+                width: 18%;
+            }
+
+            .center {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            a:link {
+                text-decoration: none;
+                color: darkslategrey;
+            }
+
+            a:visited {
+                text-decoration: none;
+                color: darkslategrey;
+            }
+
+            a:hover {
+                text-decoration: underline;
+                color: lightslategrey;
+            }
+
+            a:active {
+                text-decoration: underline;
+                color: lightslategrey;
+            }
+
+            td {
+                padding: 25px;
+            }
+
+            article {
+                float: left;
+                padding: 20px;
+                width: 70%;
+                color: darkslategrey;
+            }
+
+            section::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            footer {
+                padding: 10px;
+                text-align: center;
+                color: darkgreen;
+            }
+
+            @media (max-width: 600px) {
+                nav, article {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="images/fb_header.jpg" width=100%>
+            <h1>Welcome to Denver Avenue Press</h1>
+            <p><i>Publishing brief, intelligent, and funny takes on challenging subjects. We're into what we write about. Come on along and we'll show you amazing things.</i></p>
+        </header>
+
+        <section>
+            <nav>
+                <table class="center">
+                <tr>
+                    <td><a href="#">About</a></td>
+                    <td><a href="#">Sales</a></td>
+                    <td><a href="#">Products</a></td>
+                    <td><a href="#">Essays</a></td>
+                    <td><a href="#">Links</a></td>
+                    <td><a href="#">Home</a></td>
+                </tr>
+                </table>
+            </nav>
+            <article>
+                <h2>Our Past Publications</h2>
+                <table class="center">
+                    <tr>
+                      <td><img src="images/gardens.jpg" width=300px></td>
+                      <td><img src="images/grab.jpg" width=300px></td>
+                      <td><img src="images/crown.jpg" width=300px></td>
+                      <td><img src="images/wright.jpg" width=300px></td>
+                      <td><img src="images/delancey.jpg" width=300px></td>
+                    </tr>
+                  </table> 
+            </article>
+        </section>
+        <p></p>
+        <footer>
+            <p>1319 SE MLK, Suite 214, Portland, OR, United States</p>
+        </footer>
+    </body>
+</html>
